@@ -40,7 +40,7 @@ public class GetNewRingOfDueling extends SessionUpdater implements Task {
         }
 
         if (!Inventory.contains(c -> c.getName().startsWith(Constants.RING_OF_DUELING))) {
-            Item ringOfDueling = Bank.getFirst(c -> c.getName().startsWith(Constants.RING_OF_DUELING) && c.getQuantity() > 0);
+            Item ringOfDueling = Bank.getFirst(c -> c.getName().startsWith(Constants.RING_OF_DUELING) && c.getQuantity() > 1);
             if (ringOfDueling == null) {
                 return 600;
             }
