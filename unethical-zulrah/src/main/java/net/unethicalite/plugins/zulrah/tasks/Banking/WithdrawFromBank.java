@@ -23,7 +23,7 @@ public class WithdrawFromBank extends SessionUpdater implements Task
             Constants.PRAYER_POT + "(4)",
             Constants.PRAYER_POT + "(4)",
             Constants.RANGE_POTION + "(4)",
-            Constants.MAGIC_POT + "(4)",
+            Constants.RING_OF_DUELING + "(8)",
             Constants.RING_OF_RECOIL,
             Constants.RING_OF_RECOIL);
 
